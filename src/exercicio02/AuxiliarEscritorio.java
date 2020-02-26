@@ -1,7 +1,13 @@
 package exercicio02;
 
-public class AuxiliarEscritorio {
+public class AuxiliarEscritorio extends Funcionario {
 
-    // TODO: implemente o código desta classe
 
+    public AuxiliarEscritorio(Double salarioMensal) {
+        super(salarioMensal);
+    }
+
+    public AuxiliarEscritorio(String nome) {
+        super(nome);
+    }
 }

@@ -20,7 +20,10 @@ public class Fibonacci {
      * @return int[]
      */
     public int[] getSequenciaFibonacciDe(int tamanho) {
-        // TODO: implemente o código deste método
+
+        for(int a=0,b=1;a<=10;b+=a,a=b-a){
+            System.out.print(a+",");
+        }
         return null;
     }
 
